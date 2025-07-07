@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "generate": "nuxt generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare",
+    "typecheck": "nuxi typecheck",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@nordhealth/components": "^4.3.1",
+    "@nordhealth/css": "^4.1.0",
+    "@nordhealth/icons": "^3.10.0",
+    "@nordhealth/themes": "^9.0.0",
+    "@vee-validate/zod": "^4.15.1",
+    "vee-validate": "^4.15.0",
+    "zod": "^3.25.71"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/i18n": "^9.3.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@stylistic/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@vitest/ui": "^3.0.9",
+    "@vue/test-utils": "^2.4.0-alpha.2",
+    "eslint": "^9.0.0",
+    "eslint-plugin-vue": "^9.24.0",
+    "happy-dom": "^17.4.4",
+    "jsdom": "^26.0.0",
+    "nuxt": "^3.16.0",
+    "pinia": "^2.1.7",
+    "prettier": "^3.6.2",
+    "typescript": "5.5.4",
+    "vitest": "^3.0.9",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^2.2.12"
+  }
+}

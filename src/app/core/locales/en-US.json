@@ -1,0 +1,61 @@
+{
+  "layout": {
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme",
+    "autoTheme": "Auto (system preference)",
+    "userTheme": "User Theme",
+    "clinicName": "Bath Clinic",
+    "otherClinic": "Ocean Beach Clinic",
+    "addClinic": "Add another clinic",
+    "customizeStyle": "Customize style",
+    "signOutAll": "Sign out from all clinics",
+    "workspace": "Workspace",
+    "dashboard": "Dashboard",
+    "signUp": "Sign Up"
+  },
+  "home": {
+    "title": "Welcome to My Nuxt App",
+    "overviewTitle": "Application Overview",
+    "overviewText": "This application is a client-side rendered Nuxt 3 app that demonstrates a complete sign-up flow with modern UI components and features.",
+    "featureSignUp": "User registration with email and password",
+    "featureDuplicateCheck": "Duplicate email detection using local storage",
+    "featureDynamicTheming": "Dynamic theme switching between light and dark modes",
+    "featureI18n": "Internationalization support for multiple languages",
+    "featureResponsiveLayout": "Responsive global layout with a persistent navigation sidebar and top bar",
+    "nordTitle": "Nordhealth Cloud Design System Integration",
+    "nordDescription": "The app uses the Nordhealth Cloud Design System to ensure a consistent and modern UI. Key components include:",
+    "nordInput": "Nordhealth Input for form fields (email, password)",
+    "nordButton": "Nordhealth Button for actions (submit, toggle password)",
+    "nordCheckbox": "Nordhealth Checkbox for selecting options",
+    "nordNavigation": "Nordhealth Navigation for sidebar menu",
+    "nordTopBar": "Nordhealth Top Bar for header and theme switching",
+    "nordTooltip": "Nordhealth Tooltip for additional hints",
+    "techStackTitle": "Technical Stack",
+    "techNuxt": "Nuxt 3 for routing and application structure",
+    "techPinia": "Pinia for state management",
+    "techVeeValidate": "VeeValidate and Yup for form validation",
+    "techI18n": "Vue I18n for internationalization",
+    "techDynamicTheming": "Dynamic theming using external stylesheet switching"
+  },
+  "form": {
+    "email": "Email",
+    "password": "Password",
+    "receiveUpdates": "Receive occasional product updates",
+    "submit": "Sign Up",
+    "togglePassword": "Show / hide password",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Enter a valid email",
+    "passwordRequired": "Password is required",
+    "passwordMinLength": "Password must be at least 6 characters"
+  },
+  "alreadySubmitted": {
+    "title": "Email Already Registered",
+    "message": "It looks like this email has already been used to sign up for our product.",
+    "goBack": "Go Back to Sign Up"
+  },
+  "page": {
+    "signupTitle": "Sign up for our product",
+    "alreadySubmitted": "This email has already been submitted."
+  }
+}
+  
